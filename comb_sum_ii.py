@@ -17,8 +17,7 @@ class Solution(object):
                 print("hellp")
                 new_lst = temp[:]
                 print(temp)
-                if new_lst not in output:
-                    output.append(new_lst)
+                output.append(new_lst)
                 return
             if i >= len(candidates) or total > target:
                 return
